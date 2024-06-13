@@ -1,14 +1,12 @@
-# Docker configuration with PHP 8.1+,
+# Docker configuration with PHP 8.3+,
 
 # NGINX 1.20+,
 
 # PostgreSQL 14.2+
 
-# Symfony 6.0
+# Symfony 7.1
 
 # for SPA (Single Page Application) development with Vue/Vite, Pinia and EasyAdmin.
-
-![SPA preview](https://github.com/volkar/docker-symfony-vite-vue-ts/blob/main/preview.jpg?raw=true)
 
 ### Docker container:
 
@@ -30,7 +28,6 @@
 - Pinia for data store
 - ky for fetching data
 - Simple SPA with basic routes for example
-- [Cache system](https://github.com/volkar/vue-pinia-cache-composables) requests for symfony backend
 
 ## Prerequisites
 
@@ -47,13 +44,13 @@ Docker and Docker Compose can be installed with [Docker Desktop](https://www.doc
 1. Clone the project:
 
 ```
-git clone https://github.com/volkar/docker-symfony-vite-vue-ts.git
+git clone https://github.com/LauzetX/VueSymfonySkeleton.git
 ```
 
 2. Go to the project's folder
 
 ```
-cd /path/to/docker-symfony-vite-vue-ts
+cd /path/to/vue-symfony-skeleton
 ```
 
 3. Update and install composer packages
