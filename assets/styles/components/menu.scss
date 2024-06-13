@@ -1,0 +1,46 @@
+ul.mainmenu {
+  background-color: $background-shades-30;
+  border-bottom: 2px solid $primary;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+  align-items: flex-start;
+
+  li {
+    margin: 0.5em 1em;
+    align-self: center;
+
+    &.end {
+      margin-left: auto;
+      ul.header-end {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    a {
+      padding: 0.2rem;
+      display: block;
+      &.router-link-active {
+        color: $tertiary;
+      }
+    }
+  }
+}
+
+ul.user-menu {
+  background-color: $background-shades-40;
+  border: 2px solid $primary;
+  box-shadow: $box-shadow-popper;
+  font-weight: $font-weight-light;
+
+
+  li {
+    text-align: left;
+    margin: 0 0;
+    a {
+      color: $text;
+      font-size: $font-size-sm;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+twig:
+  file_name_pattern: "*.twig"
+  globals:
+    version: 1.0
+    __version: 1.0
+  debug: true
+
+when@test:
+  twig:
+    strict_variables: true
